@@ -1,0 +1,12 @@
+{
+  "name": "@thibaultM1/validator",
+  "version": "0.0.1",
+  "description": "Tool to check string, number, ... with usefull methods",
+  "main": "utils/validator.js",
+  "types": "utils/validator.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thibault Meyer",
+  "license": "WTFPL"
+}
