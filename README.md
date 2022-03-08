@@ -1,6 +1,6 @@
-# ATMOS JSON VALIDATOR
+# VALIDATOR
 
-Atmos validator allows to create a data validation system. This can validate a single value, an array of values and also a JSON object.
+This validator allows to create a data validation system. This can validate a single value, an array of values and also a JSON object.
 
 There is multiple type of object that can be validate :
 * String
