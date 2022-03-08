@@ -1,12 +1,35 @@
 {
-  "name": "@thibaultM1/validator",
-  "version": "0.0.1",
+  "name": "@keienla/validator",
+  "version": "1.0.0",
   "description": "Tool to check string, number, ... with usefull methods",
-  "main": "utils/validator.js",
-  "types": "utils/validator.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build",
+    "test": "jest --env=node --colors --watchAll",
+    "testVerbose": "jest --env=node --colors --watchAll --verbose --runInBand",
+    "testCoverage": "jest --env=node --colors --watchAll --verbose --runInBand --coverage"
   },
-  "author": "Thibault Meyer",
-  "license": "WTFPL"
+  "author": {
+    "name": "Thibault Meyer",
+    "url": "http://thibault-meyer.fr"
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "i18next": "^21.6.13",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keienla/validator.git"
+  },
+  "homepage": "https://github.com/keienla/validator/blob/main/README.md"
 }
