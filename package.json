@@ -1,6 +1,6 @@
 {
   "name": "@keienla/validator",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Tool to check string, number, ... with usefull methods",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
